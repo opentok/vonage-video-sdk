@@ -26,6 +26,12 @@ Client SDKs are also available for
 You can learn more about the basics of OpenTok clients, servers, sessions, and
 more on the [OpenTok Basics](https://tokbox.com/developer/guides/basics/) page.
 
+Swift Package Manager
+------------------------------------------
+You can add the iOS OpenTok SDK by adding the https://github.com/opentok/sdk-ios-spm repository as a Swift Package Dependency.
+
+To add a package dependency to your Xcode project, select *File* > *Swift Packages* > *Add Package Dependency* and enter its repository URL.
+
 Learning to build with the OpenTok iOS SDK
 ------------------------------------------
 
@@ -69,10 +75,6 @@ The OpenTok.xcframework directory contains the OpenTok iOS SDK.
 
 The OpenTok iOS SDK is available as [Swift Package Manager](https://github.com/opentok/sdk-ios-spm), 
 or the Pod "OpenTok" for use with [CocoaPods](http://cocoapods.org/).
-
-## Swift Package Manager
-You can add the iOS OpenTok SDK by adding the https://github.com/opentok/sdk-ios-spm repository as a Swift Package Dependency.
-To add a package dependency to your Xcode project, select File > Swift Packages > Add Package Dependency and enter its repository URL
 
 The OpenTok iOS SDK requires Xcode 7 or higher.
 
