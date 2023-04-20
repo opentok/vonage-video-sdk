@@ -27,7 +27,7 @@ You can learn more about the basics of OpenTok clients, servers, sessions, and
 more on the [OpenTok Basics](https://tokbox.com/developer/guides/basics/) page.
 
 Swift Package Manager
-------------------------------------------
+---------------------
 You can add the iOS OpenTok SDK by adding the https://github.com/opentok/sdk-ios-spm repository as a Swift Package Dependency.
 
 To add a package dependency to your Xcode project, select *File* > *Swift Packages* > *Add Package Dependency* and enter its repository URL.
