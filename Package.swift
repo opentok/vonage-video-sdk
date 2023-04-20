@@ -10,18 +10,17 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "VonageVideoSDK",
-            targets: ["OpenTok", "VonageVideoSDKDependencies"]),
+            targets: ["OpenTok", "VonageVideoSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        // TODO: use remote binary target, not local
         .binaryTarget(name: "OpenTok",
                       url: "https://s3.amazonaws.com/artifact.tokbox.com/rel/otkit-ios-sdk-xcframework/OpenTok-iOS-2.25.0.zip",
                       checksum: "18172d7edc06095671c576aa1c20185b84391ea3604b5ae78ddd3b5a3889b8c7"),
-        .target(name: "VonageVideoSDKDependencies",
+        .target(name: "VonageVideoSDK",
                 path: "Sources",
                 linkerSettings: [
                     .linkedFramework("Network"),
@@ -29,6 +28,6 @@ let package = Package(
                     .linkedLibrary("c++")
                 ]),
         .testTarget(name: "VonageVideoSDKTests",
-                    dependencies: ["OpenTok", "VonageVideoSDKDependencies"])
+                    dependencies: ["VonageVideoSDK"])
     ]
 )

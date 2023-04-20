@@ -1,5 +1,5 @@
 import XCTest
-import VonageVideoSDKDependencies
+import VonageVideoSDK
 import OpenTok
 
 final class native_sdk_src_spmTests: XCTestCase {
