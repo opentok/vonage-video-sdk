@@ -28,7 +28,7 @@ more on the [Vonage Basics](https://tokbox.com/developer/guides/basics/) page.
 
 Swift Package Manager
 ---------------------
-You can add the Vonage Client SDK Video iOS by adding the https://github.com/opentok/vonage-sdk-ios-spm.git repository as a Swift Package Dependency.
+You can add the Vonage Client SDK Video iOS by adding the https://github.com/opentok/vonage-client-sdk-video.git repository as a Swift Package Dependency.
 
 To add a package dependency to your Xcode project, select *File* > *Swift Packages* > *Add Package Dependency* and enter its repository URL.
 
