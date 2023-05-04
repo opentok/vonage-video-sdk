@@ -1,5 +1,5 @@
-OpenTok iOS SDK release notes
-=============================
+Vonage Client SDK Video iOS release notes
+=========================================
 
 New features and changes
 ------------------------
