@@ -26,6 +26,7 @@ let package = Package(
                 linkerSettings: [
                     .linkedFramework("Network"),
                     .linkedFramework("VideoToolbox"),
+                    .linkedFramework("Accelerate"),
                     .linkedLibrary("c++")
                 ]),
         .testTarget(name: "VonageClientSDKVideoTests",
