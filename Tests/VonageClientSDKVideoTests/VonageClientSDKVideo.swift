@@ -1,6 +1,5 @@
 import XCTest
 import VonageClientSDKVideo
-import OpenTok
 
 final class vonage_client_sdk_videoTests: XCTestCase {
     func testExample() throws {
