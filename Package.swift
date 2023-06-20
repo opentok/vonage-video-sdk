@@ -28,7 +28,10 @@ let package = Package(
                     .linkedFramework("VideoToolbox"),
                     .linkedFramework("Accelerate"),
                     .linkedLibrary("c++")
-                ]),
+                ],
+                resources: [
+                .process("OpenTok.xcframework/ios-arm64/OpenTok.framework/selfie_segmentation.tflite")
+            ]),
         .testTarget(name: "VonageClientSDKVideoTests",
                     dependencies: ["VonageClientSDKVideo"])
     ]
