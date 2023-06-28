@@ -23,6 +23,9 @@ let package = Package(
                       checksum: "a7036a343b0099f9c0f0aecc6dc6c3325a23533a61289a589524fcd0b6b81433"),
         .target(name: "VonageClientSDKVideo",
                 path: "Sources",
+                resources: [
+                    .process("VonageClientSDKVideo/Resources/selfie_segmentation.tflite")
+                ],
                 linkerSettings: [
                     .linkedFramework("Network"),
                     .linkedFramework("VideoToolbox"),
