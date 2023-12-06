@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "OpenTok",
-                    path: "OpenTok.xcframework"),
+                    path: "OpenTok_VIDCS-1608.xcframework"),
         .target(name: "VonageClientSDKVideo",
                 path: "Sources",
                 resources: [
