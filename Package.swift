@@ -11,7 +11,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "VonageClientSDKVideo",
-            targets: ["OpenTok", "VonageClientSDKVideo"]),
+            targets: ["OpenTokFix", "VonageClientSDKVideo"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -19,7 +19,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-                    name: "OpenTok",
+                    name: "OpenTokFix",
                     path: "OpenTok_VIDCS-1608.xcframework"),
         .target(name: "VonageClientSDKVideo",
                 path: "Sources",
