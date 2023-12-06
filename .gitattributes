@@ -1,4 +1,0 @@
-OpenTok.xcframework/ios-arm64/OpenTok.framework/OpenTok filter=lfs diff=lfs merge=lfs -text
-OpenTok.xcframework/ios-arm64_x86_64-simulator/OpenTok.framework/OpenTok filter=lfs diff=lfs merge=lfs -text
-OpenTok_VIDCS-1608.xcframework/ios-arm64_x86_64-simulator/OpenTok.framework/OpenTok filter=lfs diff=lfs merge=lfs -text
-OpenTok_VIDCS-1608.xcframework/ios-arm64/OpenTok.framework/OpenTok filter=lfs diff=lfs merge=lfs -text

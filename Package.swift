@@ -11,16 +11,16 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "VonageClientSDKVideo",
-            targets: ["OpenTokFix", "VonageClientSDKVideo"]),
+            targets: ["OpenTok", "VonageClientSDKVideo"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .binaryTarget(
-                    name: "OpenTokFix",
-                    path: "OpenTok_VIDCS-1608.xcframework"),
+        .binaryTarget(name: "OpenTok",
+                      url: "https://s3.amazonaws.com/artifact.tokbox.com/nightly/otkit-ios-sdk-xcframework/1747_b/OpenTok-iOS-2.26.3.zip",
+                      checksum: "9fe4e64cf82fa09e8d788db97072b10a317499b66bb3de10cba4ba8ba8282f4f"),
         .target(name: "VonageClientSDKVideo",
                 path: "Sources",
                 resources: [
