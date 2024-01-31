@@ -58,7 +58,7 @@ on GitHub.
 Interoperability
 ----------------
 
-Apps written with the Vonage Client SDK Video iOS 2.25.0 can interoperate with Vonage apps
+Apps written with the Vonage Client SDK Video iOS 2.27.1 can interoperate with Vonage apps
 written with version 2.23+ of the Vonage client SDKs:
 
 * Vonage.js
