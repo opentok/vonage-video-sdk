@@ -24,7 +24,8 @@ let package = Package(
         .target(name: "VonageClientSDKVideo",
                 path: "Sources",
                 resources: [
-                    .process("VonageClientSDKVideo/Resources/selfie_segmentation.tflite")
+                    .process("VonageClientSDKVideo/Resources/selfie_segmentation.tflite"),
+                    .copy("VonageClientSDKVideo/Resources/PrivacyInfo.xcprivacy")
                 ],
                 linkerSettings: [
                     .linkedFramework("Network"),
